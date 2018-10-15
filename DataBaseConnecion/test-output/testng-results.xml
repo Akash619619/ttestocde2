@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11045" started-at="2018-09-30T06:07:04Z" finished-at="2018-09-30T06:07:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11045" started-at="2018-09-30T06:07:04Z" finished-at="2018-09-30T06:07:15Z">
+      <class name="DatabaseControlFlow">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DatabaseControlFlow@4d95d2a2]" name="beforeClass" is-config="true" duration-ms="27" started-at="2018-09-30T11:37:04Z" finished-at="2018-09-30T11:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:DatabaseControlFlow@4d95d2a2]" name="beforeMethod" is-config="true" duration-ms="5792" started-at="2018-09-30T11:37:04Z" finished-at="2018-09-30T11:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="posCredentials1()[pri:0, instance:DatabaseControlFlow@4d95d2a2]" name="posCredentials1" duration-ms="4408" started-at="2018-09-30T11:37:10Z" finished-at="2018-09-30T11:37:14Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerExceptionat DatabaseControlFlow.posCredentials1(DatabaseControlFlow.java:53)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posCredentials1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:DatabaseControlFlow@4d95d2a2]" name="afterMethod" is-config="true" duration-ms="763" started-at="2018-09-30T11:37:14Z" finished-at="2018-09-30T11:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="afterClass()[pri:0, instance:DatabaseControlFlow@4d95d2a2]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-30T11:37:15Z" finished-at="2018-09-30T11:37:15Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerExceptionat DatabaseControlFlow.afterClass(DatabaseControlFlow.java:68)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:208)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DatabaseControlFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
